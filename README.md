@@ -36,7 +36,7 @@ Miner: ``Custom``
 
 ## Custom miner config
 
-Miner name: ``lyberty-hiveos``
+Miner name: ``liberty-hiveos``
 
 Installation URL: ``https://github.com/DarkRiDDeR/liberty-hiveos-miner/releases/download/0.6.8.0/liberty-hiveos-0.6.8.0.tar.gz``
 
@@ -49,6 +49,10 @@ Pool URL: ``your node address``
 Extra config arguments (threads): ``32``
 
 ![image](screens/3.jpg)
+
+## Result
+
+![image](screens/4.jpg)
 
 # Donations
 
