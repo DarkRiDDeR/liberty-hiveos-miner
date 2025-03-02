@@ -28,7 +28,7 @@ function miner_config_gen() {
 [[ -z $CUSTOM_URL ]] && echo -e "${YELLOW}CUSTOM_URL is empty${NOCOLOR}" && return 1
 [[ -z $CUSTOM_USER_CONFIG ]] && echo -e "${YELLOW}CUSTOM_USER_CONFIG is empty${NOCOLOR}" && return 1
 
-conf="${CUSTOM_URL} ${CUSTOM_TEMPLATE} ${CUSTOM_USER_CONFIG}"
+conf="${CUSTOM_URL} ${CUSTOM_USER_CONFIG}"
 echo "$conf" > $CUSTOM_CONFIG_FILENAME
 
 

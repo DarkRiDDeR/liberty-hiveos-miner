@@ -5,7 +5,7 @@ def chmodx(tarinfo):
     return tarinfo
 
 f = tarfile.open('liberty-hiveos-0.6.8.0.tar.gz', 'w:gz')
-f.add('miner/h-config.sh', arcname='/liberty-hiveos/liberty-linux-amd64', filter=chmodx)
+f.add('liberty-linux-amd64', arcname='/liberty-hiveos/liberty-linux-amd64', filter=chmodx)
 f.add('miner/h-config.sh', arcname='/liberty-hiveos/h-config.sh', filter=chmodx)
 f.add('miner/h-manifest.conf' , arcname='/liberty-hiveos/h-manifest.conf', filter=chmodx)
 f.add('miner/h-run.sh' , arcname='/liberty-hiveos/h-run.sh', filter=chmodx)
